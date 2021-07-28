@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Now</title>
+    <link rel="stylesheet" href="sale.css">
+    <!-- Bootstrap link -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<!-- Font-awesome link -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-dark" style="background-color: rgba(238, 37, 37, 0.932)">
+        <a class="navbar-brand" href="#">WholeSale</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="signup.html" target="blank">Log In/Sign Up</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="product.html" target="blank">
+                Products
+              </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="sale.html" target="blank">Order Now</a>
+              </li>
+            
+            
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+      <!-- sales -->
+      <div class="container">
+        <div class="card shopping-cart">
+                 <div class="card-header bg-dark text-light">
+                     <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                     Shipping cart
+                     <a href="product.html" class="btn btn-outline-info btn-sm pull-right" target="blank">Continue shopping</a>
+                     <div class="clearfix"></div>
+                 </div>
+                 <div class="card-body">
+                         <!-- PRODUCT -->
+                         <div class="row">
+                             <div class="col-12 col-sm-12 col-md-2 text-center">
+                                     <img class="img-responsive" src="medicine.jpeg" alt="prewiew" width="120" height="80">
+                             </div>
+                             <div class="col-12 text-sm-center col-sm-12 text-md-left col-md-6">
+                                 <h4 class="product-name"><strong>Product Name</strong></h4>
+                                 <h4>
+                                     <small>Product description</small>
+                                 </h4>
+                             </div>
+                             <div class="col-12 col-sm-12 text-sm-center col-md-4 text-md-right row">
+                                 <div class="col-3 col-sm-3 col-md-6 text-md-right" style="padding-top: 5px">
+                                     <h6><strong>25.00 <span class="text-muted">x</span></strong></h6>
+                                 </div>
+                                 <div class="col-4 col-sm-4 col-md-4">
+                                     <div class="quantity">
+                                         <input type="button" value="+" class="plus">
+                                         <input type="number" step="1" max="99" min="1" value="1" title="Qty" class="qty"
+                                                size="4">
+                                         <input type="button" value="-" class="minus">
+                                     </div>
+                                 </div>
+                                 <div class="col-2 col-sm-2 col-md-2 text-right">
+                                     <button type="button" class="btn btn-outline-danger btn-xs">
+                                         <i class="fa fa-trash" aria-hidden="true"></i>
+                                     </button>
+                                 </div>
+                             </div>
+                         </div>
+                         <hr>
+                         <div class="row">
+                             <div class="col-12 col-sm-12 col-md-2 text-center">
+                                     <img class="img-responsive" src="medicine.jpeg" alt="prewiew" width="120" height="80">
+                             </div>
+                             <div class="col-12 text-sm-center col-sm-12 text-md-left col-md-6">
+                                 <h4 class="product-name"><strong>Product Name</strong></h4>
+                                 <h4>
+                                     <small>Product description</small>
+                                 </h4>
+                             </div>
+                             <div class="col-12 col-sm-12 text-sm-center col-md-4 text-md-right row">
+                                 <div class="col-3 col-sm-3 col-md-6 text-md-right" style="padding-top: 5px">
+                                     <h6><strong>25.00 <span class="text-muted">x</span></strong></h6>
+                                 </div>
+                                 <div class="col-4 col-sm-4 col-md-4">
+                                     <div class="quantity">
+                                         <input type="button" value="+" class="plus">
+                                         <input type="number" step="1" max="99" min="1" value="1" title="Qty" class="qty"
+                                                size="4">
+                                         <input type="button" value="-" class="minus">
+                                     </div>
+                                 </div>
+                                 <div class="col-2 col-sm-2 col-md-2 text-right">
+                                     <button type="button" class="btn btn-outline-danger btn-xs">
+                                         <i class="fa fa-trash" aria-hidden="true"></i>
+                                     </button>
+                                 </div>
+                             </div>
+                         </div>
+                         <hr>
+                     <div class="pull-right">
+                         <a href="product.html" class="btn btn-outline-secondary pull-right">
+                             Update shopping cart
+                         </a>
+                     </div>
+                 </div>
+                     <div class="pull-right" style="margin: 10px">
+                         <a href="#" class="btn btn-success pull-right">Order Now</a>
+                         <div class="pull-right" style="margin: 5px">
+                             Total price: <b>50.00</b>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+     </div>
+
+</body>
+</html>
